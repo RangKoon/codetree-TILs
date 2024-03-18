@@ -17,7 +17,7 @@ public class Main {
                         return "No";
                 }
                 else {
-                    if(0<b && b<32)
+                    if(0<b && b<31)
                         return "Yes";
                     else
                         return "No";
