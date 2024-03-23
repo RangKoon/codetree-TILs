@@ -17,11 +17,12 @@ public class Main {
                 System.out.println(s);
             }
             else {
-                char arr[] = s.toCharArray();
+                String tmp = "";
                 for(int j=len-1; j>=0; j--) {
-                    System.out.print(arr[j]);
+                    tmp += s.substring(j,j+1);
                 }
-                System.out.println();
+                s = tmp;
+                System.out.println(s);
             }
         }
 
