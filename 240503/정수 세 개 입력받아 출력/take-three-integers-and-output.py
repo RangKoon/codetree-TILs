@@ -1,5 +1,5 @@
-input=input()
-arr=input.split()
+t=input()
+arr=t.split()
 a=int(arr[0])
 b=int(arr[1])
 c=int(input())
